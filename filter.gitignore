@@ -1,0 +1,11 @@
+.env
+.DS_Store
+
+# エディタの設定
+.vscode/
+.idea/
+
+# ビルド成果物
+dist/
+build/
+node_modules/
