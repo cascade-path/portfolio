@@ -51,8 +51,6 @@ h1{
 main{
     display:grid;
     grid-template-columns: 1fr 250px;
-    gap: 1rem;
-    padding: 1rem;
 }
 
 article{
