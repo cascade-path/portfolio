@@ -17,12 +17,12 @@ header,footer{
     border-bottom: 1px solid var(--text-w);
 }
 
-nav{
+header nav{
     display: grid;
     grid-auto-flow: column;
     background: #0ff;
 }
-nav a{
+header nav a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ nav a{
     text-decoration: none;
     color: var(--text-w);
 }
-nav a:hover{
+header nav a:hover{
     background-position: 0 3em;
     transition: background-position .3s;
     opacity: .7;
@@ -64,7 +64,7 @@ article h2 {
   font-size: 1.4em;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-section {
+article section {
   background: #f5f5f5;
   color: #222;
   padding: 1.5em;
@@ -72,7 +72,7 @@ section {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   position: relative;
 }
-section::before {
+article section::before {
   content: "🗞️";
   position: absolute;
   top: 0.5em;
@@ -92,7 +92,7 @@ footer{
 }
 
 @media (max-width:600px){
-    nav{
+    header nav{
         grid-auto-flow: row;
     }
     main{
