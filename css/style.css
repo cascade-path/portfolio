@@ -10,13 +10,12 @@ body{
 }
 
 header,footer{
-    padding: 0 1rem;
     background: #111;
     color: var(--text-w);
-    border-bottom: 1px solid var(--text-w);
 }
 .header-title{
     padding: 0 1rem;
+    border-bottom: 1px solid var(--text-w);
 }
 
 nav{
@@ -88,6 +87,7 @@ aside{
 
 footer{
     text-align: center;
+    border-bottom: 1px solid var(--text-w);
 }
 
 @media (max-width:600px){
