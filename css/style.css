@@ -87,7 +87,7 @@ aside{
 footer{
     padding: 1rem 0;
     text-align: center;
-    border-bottom: 1px solid var(--text-w);
+    border-block: 1px solid var(--text-w);
 }
 
 @media (max-width:600px){
