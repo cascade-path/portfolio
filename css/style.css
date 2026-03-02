@@ -43,7 +43,7 @@ h1{
     border-block: 1px solid var(--text-w);
 }
 
-.content{
+main{
     display:grid;
     grid-template-columns: 1fr 250px;
 }
@@ -94,7 +94,7 @@ footer{
     nav{
         grid-auto-flow: row;
     }
-    .content{
+    main{
         grid-template-columns: 1fr;
     }
 }
