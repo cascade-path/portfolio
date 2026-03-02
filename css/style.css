@@ -53,7 +53,7 @@ article{
     display: grid;
     gap: 10px;
     justify-content: stretch;
-    padding: 20px;
+    padding: 40px;
     background: #888;
 }
 article h2 {
