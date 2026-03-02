@@ -48,7 +48,7 @@ h1{
     grid-template-columns: 1fr 250px;
 }
 
-main{
+article{
     display: grid;
     gap: 10px;
     justify-content: stretch;
