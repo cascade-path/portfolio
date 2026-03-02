@@ -84,6 +84,9 @@ article section::before {
 aside{
     background: #111;
 }
+aside h2{
+    text-indent: 1rem;
+}
 
 footer{
     padding: 1rem 0;
