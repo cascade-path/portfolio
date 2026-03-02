@@ -63,7 +63,7 @@ h2 {
   font-size: 1.4em;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-article {
+section {
   background: #f5f5f5;
   color: #222;
   padding: 1.5em;
@@ -71,7 +71,7 @@ article {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   position: relative;
 }
-article::before {
+section::before {
   content: "🗞️";
   position: absolute;
   top: 0.5em;
