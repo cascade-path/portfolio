@@ -34,8 +34,12 @@
             <svg xmlns>
                 <path/>
             </svg>
+            <object href="">
         </aside>
     </div>
-    <footer>&copy;2026 cascade-path . All rights reserved.</footer>
+    <footer>&copy;<span id="year"></span> cascade-path . All rights reserved.</footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
