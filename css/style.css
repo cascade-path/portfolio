@@ -62,7 +62,7 @@ article{
     padding: 20px;
     background: #888;
 }
-h2 {
+main h2 {
   margin: 0;
   padding: 0.5rem 1rem;
   background: linear-gradient(90deg, #333, #555);
