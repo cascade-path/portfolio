@@ -15,9 +15,6 @@ header,footer{
     color: var(--text-w);
     border-bottom: 1px solid var(--text-w);
 }
-footer{
-    text-align: center;
-}
 
 .nav{
     display: grid;
@@ -84,6 +81,11 @@ article::before {
 
 aside{
     background: #111;
+}
+
+
+footer{
+    text-align: center;
 }
 
 @media (max-width:600px){
