@@ -105,11 +105,13 @@ footer{
 
 a.button_m{
     max-width: 500px;
-    margin: 0 auto;
+    margin: 1rem auto;
     background: #088;
     padding: .5rem;
     border-radius: .5rem;
+    color: var(--text-w);
     box-shadow: 0 0 0 #000;
+    text-align:center;
     text-decoration: none;
     transition: .3s;
 }
@@ -117,7 +119,7 @@ a.button_m::after{
     content: ">";
 }
 a.button_m:hover{
-    box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 3px #000;
 }
 a.button_m:hover::after{
     translate: 1rem;
