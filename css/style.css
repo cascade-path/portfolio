@@ -119,7 +119,7 @@ a.button_m{
 a.button_m::after{
     display: inline-block;
     content: ">";
-    translate: .3s .1s;
+    transition: .3s .1s;
 }
 a.button_m:hover{
     background: #0aa;
