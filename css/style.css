@@ -122,7 +122,9 @@ a.button_m::after{
     translate: .3s .1s;
 }
 a.button_m:hover{
+    background: #0aa;
     box-shadow: 0 0 3px var(--text-w);
+    scale: 1.05;
 }
 a.button_m:hover::after{
     translate: 1rem;
