@@ -107,7 +107,7 @@ footer{
 a.button_m{
     width: 100%;
     max-width: 300px;
-    margin: 0 auto;
+    margin: .5rem auto;
     background: #088;
     padding: .5rem;
     border-radius: .5rem;
