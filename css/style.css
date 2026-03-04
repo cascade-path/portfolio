@@ -41,7 +41,7 @@ header nav a:hover{
 }
 header nav a[data-selected]{
     pointer-events: none;
-    background: #0ff;
+    background: #0dd;
     color: #444;
 }
 
