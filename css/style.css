@@ -39,6 +39,11 @@ header nav a:hover{
     transition: background-position .3s;
     opacity: .6;
 }
+header nav a[data-selected]{
+    pointer-events: none;
+    background: #0ff;
+    color: #444;
+}
 
 header h1{
     background: #111;
