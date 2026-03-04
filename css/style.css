@@ -117,7 +117,7 @@ a.button_m{
     padding: .5rem;
     border-radius: .5rem;
     color: var(--text-w);
-    border: solid 1px var(--text-w);
+    outline: solid 1px var(--text-w);
     box-shadow: 0 0 10px var(--text-w);
     text-align: center;
     text-decoration: none;
@@ -133,7 +133,7 @@ a.button_m::after{
 }
 a.button_m:hover{
     background: #0aa;
-    border: solid 3px var(--text-w);
+    outline: solid 3px var(--text-w);
     box-shadow: 0 0 0 var(--text-w);
     scale: 1.05;
 }
