@@ -37,7 +37,7 @@ header nav a{
 header nav a:hover{
     background-position: 0 3em;
     transition: background-position .3s;
-    opacity: .7;
+    opacity: .6;
 }
 
 header h1{
