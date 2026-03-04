@@ -112,7 +112,7 @@ a.button_m{
     padding: .5rem;
     border-radius: .5rem;
     color: var(--text-w);
-    box-shadow: 0 0 0 var(--text-w);
+    box-shadow: 0 0 5px var(--text-w);
     text-align: center;
     text-decoration: none;
     font-size: 1.3rem;
@@ -126,7 +126,7 @@ a.button_m::after{
 }
 a.button_m:hover{
     background: #0aa;
-    box-shadow: 0 0 3px var(--text-w);
+    box-shadow: 0 0 0 var(--text-w);
     scale: 1.05;
 }
 a.button_m:hover::after{
