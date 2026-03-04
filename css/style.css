@@ -9,7 +9,8 @@ body{
     margin: 0;
 }
 
-/* ページ全体の設定 */
+
+/* ---- ページ全体の設定 ---- */
 
 header,footer{
     background: #111;
@@ -98,6 +99,9 @@ footer{
     text-align: center;
     border-top: 1px solid var(--text-w);
 }
+
+
+/* ---- ページの要素 ---- */
 
 a.button_m{
     background: #088;
