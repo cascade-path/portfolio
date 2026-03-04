@@ -119,6 +119,7 @@ a.button_m{
 a.button_m::after{
     display: inline-block;
     content: ">";
+    translate: .3s .1s;
 }
 a.button_m:hover{
     box-shadow: 0 0 3px var(--text-w);
