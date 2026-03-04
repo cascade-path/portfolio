@@ -104,6 +104,8 @@ footer{
 /* ---- ページの要素 ---- */
 
 a.button_m{
+    max-width: 500px;
+    margin: 0 auto;
     background: #088;
     padding: .5rem;
     border-radius: .5rem;
