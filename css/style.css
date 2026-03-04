@@ -101,9 +101,13 @@ a.button_m{
     background: #088;
     padding: .3rem;
     border-radius: .3rem;
+    box-shadow: 0 0 0 #000;
 }
 a.button_m::after{
     content: ">";
+}
+a.button_m:hover{
+    box-shadow: 0 0 1px #000;
 }
 a.button_m:hover::after{
     translate: 1rem;
