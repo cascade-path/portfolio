@@ -97,10 +97,16 @@ footer{
     border-top: 1px solid var(--text-w);
 }
 
-.button_m{
+a.button_m{
     background: #088;
     padding: .3rem;
     border-radius: .3rem;
+}
+a.button_m::after{
+    content: ">";
+}
+a.button_m:hover::after{
+    translate: 1rem;
 }
 
 @media (max-width:600px){
