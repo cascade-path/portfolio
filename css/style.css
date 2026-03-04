@@ -60,6 +60,7 @@ article{
     gap: 10px;
     justify-content: stretch;
     padding: 40px;
+    padding-top: 120px;
     background: #888;
 }
 article h2 {
