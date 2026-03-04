@@ -42,7 +42,7 @@ header h1{
     margin: 0;
     font-size: 1.3rem;
     text-indent: 1em;
-    padding: .4em;
+    padding: .3em;
     border-block: 1px solid var(--text-w);
 }
 
