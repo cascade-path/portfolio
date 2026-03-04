@@ -97,6 +97,12 @@ footer{
     border-top: 1px solid var(--text-w);
 }
 
+.button_m{
+    background: #088;
+    padding: .3rem;
+    border-radius: .3rem;
+}
+
 @media (max-width:600px){
     header nav{
         grid-auto-flow: row;
