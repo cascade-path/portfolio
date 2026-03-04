@@ -40,6 +40,9 @@ header nav a:hover{
 header h1{
     background: #111;
     margin: 0;
+    font-size: 2rem;
+    text-indent: 1em;
+    padding: .4em;
     border-block: 1px solid var(--text-w);
 }
 
