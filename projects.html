@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index - portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="icon/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="header-title">cascade-path</div>
+        <nav>
+            <a href="profile.html">profile</a>
+            <a href="projects.html">projects</a>
+            <a href="contact.html">contact</a>
+            <a href="secret.html">🔒</a>
+        </nav>
+        <h1>制作実績</h1>
+    </header>
+    <main>
+        <article>
+            <h2>桜山町</h2>
+            <section>
+                <a href="https://cascade-path.github.io/sakurayama-town/index.html">リンク</a>
+                <p>独学でWeb制作技術を学び、HTML/CSSを使った制作をしています。</p>
+            </section>
+            <h2>ポートフォリオについて</h2>
+            <section>
+                <p>作成した目的・</p>
+                <p>コンセプト・</p>
+                <p>gridレイアウトをベースにしたレスポンシブルデザインを採用しています。</p>
+                <p>詳細は<a href="readme.md">README</a>を参照</p>
+            </section>
+            <h2>Index/</h2>
+            <a href="profile.html" class="button_m">profile/自己紹介</a>
+            <a href="profile.html" class="button_m">projects/制作実績</a>
+            <a href="profile.html" class="button_m">contact/連絡先</a>
+            <pre>
+            キャッチコピー
+            コンセプト
+            ナビゲーションの写真
+            階層図
+            お知らせ
+            ひとこと
+            開発中のスクショ
+
+            アイコン(favicon)
+            </pre>
+        </article>
+        <aside>
+            <object type="image/svg+xml" data="svg/structure.svg" width="100%" height="100%">
+                SVGを表示できませんでした
+            </object>
+        </aside>
+    </main>
+    <footer>&copy;<span id="year"></span> cascade-path . All rights reserved.</footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
