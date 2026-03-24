@@ -92,6 +92,19 @@ article section::before {
   font-size: 1.2em;
   opacity: 0.3;
 }
+section h3{
+    display: inline-block;
+    position: relative;
+}
+section h3::after{
+    content: "";
+    height: .3em;
+    position: absolute;
+    inset: 0;
+    bottom: 0;
+    background: #0ff;
+    opacity: .5;
+}
 
 aside{
     background: #111;
