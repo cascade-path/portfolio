@@ -100,7 +100,8 @@ section h3::after{
     content: "";
     height: .3em;
     position: absolute;
-    inset: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
     background: #0ff;
     opacity: .5;
