@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <circle r="100" cx="125" cy="125" fill="#00c0c0" />
   <text stroke="#fff" fill="#444" x="125" y="100" font-size="50" font-weight="bold" text-anchor="middle">工事中</text>
-  <text fill="#44d" x="125" y="130" font-size="20" font-weight="bold" text-anchor="middle">英語版対応に合わせ、</text>
-  <text fill="#44d" x="125" y="150" font-size="20" font-weight="bold" text-anchor="middle">リニューアルを検討中</text>
+  <text fill="#eef" x="125" y="130" font-size="20" font-weight="bold" text-anchor="middle">英語版対応に合わせ、</text>
+  <text fill="#eef" x="125" y="150" font-size="20" font-weight="bold" text-anchor="middle">リニューアルを検討中</text>
 </svg>
